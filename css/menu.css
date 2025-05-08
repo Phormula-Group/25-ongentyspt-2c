@@ -1,0 +1,148 @@
+/** {border: 1px solid palevioletred;}*/
+
+.thumb_menu a {
+	/*background-color: #00ff576b;*/
+
+	width: 9%;
+    height: 9%;
+}
+
+.thumb_menu img {
+	height: 100%;
+    float: right;
+}
+
+body {
+	background: #ffffff;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+	background-size: contain !important;
+    background-position: right;
+}
+
+.side_menu {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    /*transform: translateX(-50px);
+    transition: transform 1s;*/
+}
+
+.side_menu a {
+    display: block;
+    width: 100%
+}
+
+.sidemenu {
+    display: flex;
+    height: 100%;
+    width: 6%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#flows_list {
+    position: absolute;
+    left: 64px;
+    top: -9px;
+}
+
+.menulistbtn {
+    position: relative;
+}
+
+.menu_li {
+    list-style: none;
+    position: relative;
+}
+
+.menu_li img {
+    width: 45px;
+}
+
+.menuflows {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    background-color: #ffffff;
+    color: #004a96;
+    border-radius: 8px;
+    box-shadow: 3px 4px 19px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menuflows:before {
+    content: " ";
+    border-color: transparent #ffffff;
+    border-style: solid;
+    border-width: 10px 10px 13px 0;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -10px;
+    top: 20px;
+    position: absolute;
+}
+
+.menuflows img {
+    height: 30px;
+    width: 30px;
+    background-color: #e6f3fa;
+    border-radius: 5px;
+}
+
+.menuflows span {
+    display: flex;
+    align-items: center;
+}
+
+.menuflows hr:last-child {
+    display: none;
+}
+
+.flow {
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.fade_li {
+    opacity: 0.5;
+}
+
+.hide_this {
+    display: none;
+}
+
+#menu_01,
+#menu_02,
+#menu_03,
+#menu_04,
+#menu_05 {
+    display: none;
+    position: absolute;
+    inset: 0;
+    justify-content: center;
+    align-content: center;
+}
+
+li img {
+    border-radius: 0 7px 7px 0;
+}
+
+li img:active,
+li img:target {
+    scale: 1.2;
+    mix-blend-mode: luminosity;
+}
+
+.closeFlow {z-index: 99999}
