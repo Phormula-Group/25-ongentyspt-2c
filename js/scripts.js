@@ -116,6 +116,6 @@ function hideshowbtn() {
 
 }
 
-hideshowbtn(); 
+//hideshowbtn(); 
 
 CLMPlayer.registerEventListener("viewappearing", hideshowbtn);
