@@ -31,21 +31,21 @@
 
 <!--CLMPlayer NO SWIPE ZONE -->
 <script type="text/javascript">
-    CLMPlayer.defineNoSwipeRegion("no-swipe",0,0,1200,1200);
+    CLMPlayer.defineNoSwipeRegion("no-swipe", 0, 0, window.innerWidth, window.innerHeight);
 </script>
 
 <body id="slide06">
-    <header>
+    <div id="cbody">
     <!-- VIDEO -->
         <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted">
           <source src="assets/05_slide.mp4" type="video/mp4">
         </video> -->
 
     <!-- INTERACTION -->
-        <a href="javascript:CLMPlayer.gotoSlide(null, '07_slide.html',null);" style="width: 15vw; height:80px; position: absolute; top: 40%; left: 44%; z-index: 99; " ></a>
-        <a href="javascript:CLMPlayer.gotoSlide(null, '10_slide.html',null);" style="width: 10vw; height:74px; position: absolute; top: 72%; left: 45%; z-index: 99; " ></a>
-        <a href="javascript:CLMPlayer.gotoSlide(null, '47_slide.html',null);" style="width: 10vw; height:74px; position: absolute; top: 72%; left: 58%; z-index: 99; " ></a>
-        <a href="javascript:CLMPlayer.gotoSlide(null, '75_slide.html',null);" style="width: 115px; height:74px; position: absolute; top: 72%; left: 75%; z-index: 99; " ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'07_slide.html',null);" style="width: 120px; height:80px; position: absolute; top: 40%; right: 44%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'10_slide.html',null);" style="width: 105px; height:74px; position: absolute; top: 72%; right: 45%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'47_slide.html',null);" style="width: 107px; height:74px; position: absolute; top: 72%; right: 32%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'75_slide.html',null);" style="width: 115px; height:74px; position: absolute; top: 72%; right: 13%; z-index: 99;" ></a>
         
     <!-- New side menu -->
         <div id="sidemenu" class="sidemenu" style="">
@@ -77,7 +77,7 @@
             <img src="assets/06_slide-i.png" class="img-fluid">
         </dialog>
 
-    </header>
+    </div>
 
     <!-- side menus scripts -->
     <script type="text/javascript" src="js/thumb_menus_flows.js"></script>

@@ -14,7 +14,7 @@ function hideshowbtn() {
     var imgGoBack = document.querySelector('.goback img');
     var aTag = document.createElement('a');
     //aTag.setAttribute('href', localStorage.getItem('previousUrl'));
-    aTag.setAttribute('href', 'javascript:CLMPlayer.gotoSlide(null, "' + localStorage.getItem('previousUrl') + '",null)');
+    aTag.setAttribute('href', 'javascript:CLMPlayer.gotoSlide(null,"' + localStorage.getItem('previousUrl') +'",null)');
     //document.querySelector('.goback').appendChild(aTag);
 
     // Add the previous URL to an <a> around the menu btn image//

@@ -31,22 +31,22 @@
 
 <!--CLMPlayer NO SWIPE ZONE -->
 <script type="text/javascript">
-    CLMPlayer.defineNoSwipeRegion("no-swipe",0,0,1200,1200);
+    CLMPlayer.defineNoSwipeRegion("no-swipe", 0, 0, window.innerWidth, window.innerHeight);
 </script>
 
 <body id="slide16">
-    <header>
+    <div id="cbody">
     <!-- VIDEO -->
         <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted">
           <source src="assets/16_slide.mp4" type="video/mp4">
         </video> -->
 
     <!-- INTERACTION -->
-        <a href="javascript:CLMPlayer.gotoSlide(null, '17_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 51%; left: 7%; z-index: 99;" ></a>
-        <a href="javascript:CLMPlayer.gotoSlide(null, '19_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 75%; left: 7%; z-index: 99;" ></a>
-        <a href="javascript:CLMPlayer.gotoSlide(null, '20_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 44%; left: 60%; z-index: 99;" ></a>
-        <a href="javascript:CLMPlayer.gotoSlide(null, '25_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 63%; left: 60%; z-index: 99;" ></a>
-        <a href="javascript:CLMPlayer.gotoSlide(null, '26_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 84%; left: 60%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'17_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 51%; left: 7%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'19_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 75%; left: 7%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'20_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 44%; left: 60%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'25_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 63%; left: 60%; z-index: 99;" ></a>
+        <a href="javascript:CLMPlayer.gotoSlide(null,'26_slide.html',null);" style="width: 20vw; height:74px; position: absolute; top: 84%; left: 60%; z-index: 99;" ></a>
 
     <!-- New side menu -->
         <div id="sidemenu" class="sidemenu" style="">
@@ -78,7 +78,7 @@
             <img src="assets/16_slide-i.png" class="img-fluid">
         </dialog>
 
-    </header>
+    <div>
 
     <!-- side menus scripts -->
     <script type="text/javascript" src="js/thumb_menus_flows.js"></script>

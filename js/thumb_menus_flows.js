@@ -4,69 +4,69 @@
 const flow01_content = `
 <img style="width: 100%;" src="assets/side-menu/flow_01.png" alt="">
 <span class="closeFlow" style="width:5vw; height: 5vw; position: absolute; top: 5%; right: 6%;"></span>
-<a id="thumb01" href="javascript:CLMPlayer.gotoSlide(null, '01_slide.html',null);" style="position: absolute; top: 20%; left: 13.5%; z-index: 99;"></a>
-<a id="thumb02" href="javascript:CLMPlayer.gotoSlide(null, '02_slide.html',null);" style="position: absolute; top: 20%; left: 24.2%; z-index: 99;"></a>
-<a id="thumb03" href="javascript:CLMPlayer.gotoSlide(null, '03_slide.html',null);" style="position: absolute; top: 20%; left: 35%; z-index: 99;"></a>
-<a id="thumb05" href="javascript:CLMPlayer.gotoSlide(null, '05_slide.html',null);" style="position: absolute; top: 20%; left: 46%; z-index: 99;"></a>
-<a id="thumb06" href="javascript:CLMPlayer.gotoSlide(null, '06_slide.html',null);" style="position: absolute; top: 20%; left: 57%; z-index: 99;"></a>
-<a id="thumb12" href="javascript:CLMPlayer.gotoSlide(null, '12_slide.html',null);" style="position: absolute; top: 20%; left: 68%; z-index: 99;"></a>
-<a id="thumb13" href="javascript:CLMPlayer.gotoSlide(null, '13_slide.html',null);" style="position: absolute; top: 20%; left: 78.8%; z-index: 99;"></a>
+<a id="thumb01" href="javascript:CLMPlayer.gotoSlide(null,'01_slide.html',null);" style="position: absolute; top: 20%; left: 13.5%; z-index: 99;"></a>
+<a id="thumb02" href="javascript:CLMPlayer.gotoSlide(null,'02_slide.html',null);" style="position: absolute; top: 20%; left: 24.2%; z-index: 99;"></a>
+<a id="thumb03" href="javascript:CLMPlayer.gotoSlide(null,'03_slide.html',null);" style="position: absolute; top: 20%; left: 35%; z-index: 99;"></a>
+<a id="thumb05" href="javascript:CLMPlayer.gotoSlide(null,'05_slide.html',null);" style="position: absolute; top: 20%; left: 46%; z-index: 99;"></a>
+<a id="thumb06" href="javascript:CLMPlayer.gotoSlide(null,'06_slide.html',null);" style="position: absolute; top: 20%; left: 57%; z-index: 99;"></a>
+<a id="thumb12" href="javascript:CLMPlayer.gotoSlide(null,'12_slide.html',null);" style="position: absolute; top: 20%; left: 68%; z-index: 99;"></a>
+<a id="thumb13" href="javascript:CLMPlayer.gotoSlide(null,'13_slide.html',null);" style="position: absolute; top: 20%; left: 78.8%; z-index: 99;"></a>
 
-<a id="thumb15" href="javascript:CLMPlayer.gotoSlide(null, '15_slide.html',null);" style="position: absolute; top: 34%; left: 13.5%; z-index: 99;"></a>
-<a id="thumb16" href="javascript:CLMPlayer.gotoSlide(null, '16_slide.html',null);" style="position: absolute; top: 34%; left: 24.2%; z-index: 99;"></a>
-<a id="thumb27" href="javascript:CLMPlayer.gotoSlide(null, '27_slide.html',null);" style="position: absolute; top: 34%; left: 35%; z-index: 99;"></a>
-<a id="thumb28" href="javascript:CLMPlayer.gotoSlide(null, '28_slide.html',null);" style="position: absolute; top: 34%; left: 46%; z-index: 99;"></a>
-<a id="thumb29" href="javascript:CLMPlayer.gotoSlide(null, '29_slide.html',null);" style="position: absolute; top: 34%; left: 57%; z-index: 99;"></a>
-<a id="thumb30" href="javascript:CLMPlayer.gotoSlide(null, '30_slide.html',null);" style="position: absolute; top: 34%; left: 68%; z-index: 99;"></a>
-<a id="thumb31" href="javascript:CLMPlayer.gotoSlide(null, '31_slide.html',null);" style="position: absolute; top: 34%; left: 78.8%; z-index: 99;"></a>
+<a id="thumb15" href="javascript:CLMPlayer.gotoSlide(null,'15_slide.html',null);" style="position: absolute; top: 34%; left: 13.5%; z-index: 99;"></a>
+<a id="thumb16" href="javascript:CLMPlayer.gotoSlide(null,'16_slide.html',null);" style="position: absolute; top: 34%; left: 24.2%; z-index: 99;"></a>
+<a id="thumb27" href="javascript:CLMPlayer.gotoSlide(null,'27_slide.html',null);" style="position: absolute; top: 34%; left: 35%; z-index: 99;"></a>
+<a id="thumb28" href="javascript:CLMPlayer.gotoSlide(null,'28_slide.html',null);" style="position: absolute; top: 34%; left: 46%; z-index: 99;"></a>
+<a id="thumb29" href="javascript:CLMPlayer.gotoSlide(null,'29_slide.html',null);" style="position: absolute; top: 34%; left: 57%; z-index: 99;"></a>
+<a id="thumb30" href="javascript:CLMPlayer.gotoSlide(null,'30_slide.html',null);" style="position: absolute; top: 34%; left: 68%; z-index: 99;"></a>
+<a id="thumb31" href="javascript:CLMPlayer.gotoSlide(null,'31_slide.html',null);" style="position: absolute; top: 34%; left: 78.8%; z-index: 99;"></a>
 
-<a id="thumb32" href="javascript:CLMPlayer.gotoSlide(null, '32_slide.html',null);" style="position: absolute; top: 48%; left: 13.5%; z-index: 99;"></a>
-<a id="thumb33" href="javascript:CLMPlayer.gotoSlide(null, '33_slide.html',null);" style="position: absolute; top: 48%; left: 24.2%; z-index: 99;"></a>
-<a id="thumb34" href="javascript:CLMPlayer.gotoSlide(null, '34_slide.html',null);" style="position: absolute; top: 48%; left: 35%; z-index: 99;"></a>
-<a id="thumb35" href="javascript:CLMPlayer.gotoSlide(null, '35_slide.html',null);" style="position: absolute; top: 48%; left: 46%; z-index: 99;"></a>
+<a id="thumb32" href="javascript:CLMPlayer.gotoSlide(null,'32_slide.html',null);" style="position: absolute; top: 48%; left: 13.5%; z-index: 99;"></a>
+<a id="thumb33" href="javascript:CLMPlayer.gotoSlide(null,'33_slide.html',null);" style="position: absolute; top: 48%; left: 24.2%; z-index: 99;"></a>
+<a id="thumb34" href="javascript:CLMPlayer.gotoSlide(null,'34_slide.html',null);" style="position: absolute; top: 48%; left: 35%; z-index: 99;"></a>
+<a id="thumb35" href="javascript:CLMPlayer.gotoSlide(null,'35_slide.html',null);" style="position: absolute; top: 48%; left: 46%; z-index: 99;"></a>
 `;
 
 const flow02_content = `
 <img style="width: 100%;" src="assets/side-menu/flow_02.png" alt="">
 <span class="closeFlow" style="width:5vw; height: 5vw; position: absolute; top: 5%; right: 6%;"></span>
-<a id="thumb36" href="javascript:CLMPlayer.gotoSlide(null, '36_slide.html',null);" style="position: absolute; top: 20%; left: 13.5%; z-index: 99;"></a>
-<a id="thumb37" href="javascript:CLMPlayer.gotoSlide(null, '37_slide.html',null);" style="position: absolute; top: 20%; left: 24.2%; z-index: 99;"></a>
-<a id="thumb38" href="javascript:CLMPlayer.gotoSlide(null, '38_slide.html',null);" style="position: absolute; top: 20%; left: 35%; z-index: 99;"></a>
-<a id="thumb40" href="javascript:CLMPlayer.gotoSlide(null, '40_slide.html',null);" style="position: absolute; top: 20%; left: 46%; z-index: 99;"></a>
-<a id="thumb41" href="javascript:CLMPlayer.gotoSlide(null, '41_slide.html',null);" style="position: absolute; top: 20%; left: 57%; z-index: 99;"></a>
-<a id="thumb47" href="javascript:CLMPlayer.gotoSlide(null, '47_slide.html',null);" style="position: absolute; top: 20%; left: 68%; z-index: 99;"></a>
-<a id="thumb48" href="javascript:CLMPlayer.gotoSlide(null, '48_slide.html',null);" style="position: absolute; top: 20%; left: 78.8%; z-index: 99;"></a>
+<a id="thumb36" href="javascript:CLMPlayer.gotoSlide(null,'36_slide.html',null);" style="position: absolute; top: 20%; left: 13.5%; z-index: 99;"></a>
+<a id="thumb37" href="javascript:CLMPlayer.gotoSlide(null,'37_slide.html',null);" style="position: absolute; top: 20%; left: 24.2%; z-index: 99;"></a>
+<a id="thumb38" href="javascript:CLMPlayer.gotoSlide(null,'38_slide.html',null);" style="position: absolute; top: 20%; left: 35%; z-index: 99;"></a>
+<a id="thumb40" href="javascript:CLMPlayer.gotoSlide(null,'40_slide.html',null);" style="position: absolute; top: 20%; left: 46%; z-index: 99;"></a>
+<a id="thumb41" href="javascript:CLMPlayer.gotoSlide(null,'41_slide.html',null);" style="position: absolute; top: 20%; left: 57%; z-index: 99;"></a>
+<a id="thumb47" href="javascript:CLMPlayer.gotoSlide(null,'47_slide.html',null);" style="position: absolute; top: 20%; left: 68%; z-index: 99;"></a>
+<a id="thumb48" href="javascript:CLMPlayer.gotoSlide(null,'48_slide.html',null);" style="position: absolute; top: 20%; left: 78.8%; z-index: 99;"></a>
 
-<a id="thumb49" href="javascript:CLMPlayer.gotoSlide(null, '49_slide.html',null);" style="position: absolute; top: 34%; left: 13.5%; z-index: 99;"></a>
-<a id="thumb51" href="javascript:CLMPlayer.gotoSlide(null, '51_slide.html',null);" style="position: absolute; top: 34%; left: 24.2%; z-index: 99;"></a>
-<a id="thumb52" href="javascript:CLMPlayer.gotoSlide(null, '52_slide.html',null);" style="position: absolute; top: 34%; left: 35%; z-index: 99;"></a>
-<a id="thumb54" href="javascript:CLMPlayer.gotoSlide(null, '54_slide.html',null);" style="position: absolute; top: 34%; left: 46%; z-index: 99;"></a>
-<a id="thumb55" href="javascript:CLMPlayer.gotoSlide(null, '55_slide.html',null);" style="position: absolute; top: 34%; left: 57%; z-index: 99;"></a>
-<a id="thumb56" href="javascript:CLMPlayer.gotoSlide(null, '56_slide.html',null);" style="position: absolute; top: 34%; left: 68%; z-index: 99;"></a>
-<a id="thumb57" href="javascript:CLMPlayer.gotoSlide(null, '57_slide.html',null);" style="position: absolute; top: 34%; left: 78.8%; z-index: 99;"></a>
+<a id="thumb49" href="javascript:CLMPlayer.gotoSlide(null,'49_slide.html',null);" style="position: absolute; top: 34%; left: 13.5%; z-index: 99;"></a>
+<a id="thumb51" href="javascript:CLMPlayer.gotoSlide(null,'51_slide.html',null);" style="position: absolute; top: 34%; left: 24.2%; z-index: 99;"></a>
+<a id="thumb52" href="javascript:CLMPlayer.gotoSlide(null,'52_slide.html',null);" style="position: absolute; top: 34%; left: 35%; z-index: 99;"></a>
+<a id="thumb54" href="javascript:CLMPlayer.gotoSlide(null,'54_slide.html',null);" style="position: absolute; top: 34%; left: 46%; z-index: 99;"></a>
+<a id="thumb55" href="javascript:CLMPlayer.gotoSlide(null,'55_slide.html',null);" style="position: absolute; top: 34%; left: 57%; z-index: 99;"></a>
+<a id="thumb56" href="javascript:CLMPlayer.gotoSlide(null,'56_slide.html',null);" style="position: absolute; top: 34%; left: 68%; z-index: 99;"></a>
+<a id="thumb57" href="javascript:CLMPlayer.gotoSlide(null,'57_slide.html',null);" style="position: absolute; top: 34%; left: 78.8%; z-index: 99;"></a>
 
-<a id="thumb58" href="javascript:CLMPlayer.gotoSlide(null, '58_slide.html',null);" style="position: absolute; top: 48%; left: 13.5%; z-index: 99;"></a>
-<a id="thumb59" href="javascript:CLMPlayer.gotoSlide(null, '59_slide.html',null);" style="position: absolute; top: 48%; left: 24.2%; z-index: 99;"></a>
-<a id="thumb60" href="javascript:CLMPlayer.gotoSlide(null, '60_slide.html',null);" style="position: absolute; top: 48%; left: 35%; z-index: 99;"></a>
-<a id="thumb61" href="javascript:CLMPlayer.gotoSlide(null, '61_slide.html',null);" style="position: absolute; top: 48%; left: 46%; z-index: 99;"></a>
+<a id="thumb58" href="javascript:CLMPlayer.gotoSlide(null,'58_slide.html',null);" style="position: absolute; top: 48%; left: 13.5%; z-index: 99;"></a>
+<a id="thumb59" href="javascript:CLMPlayer.gotoSlide(null,'59_slide.html',null);" style="position: absolute; top: 48%; left: 24.2%; z-index: 99;"></a>
+<a id="thumb60" href="javascript:CLMPlayer.gotoSlide(null,'60_slide.html',null);" style="position: absolute; top: 48%; left: 35%; z-index: 99;"></a>
+<a id="thumb61" href="javascript:CLMPlayer.gotoSlide(null,'61_slide.html',null);" style="position: absolute; top: 48%; left: 46%; z-index: 99;"></a>
 `;
 
 const flow03_content = `
 <img style="width: 100%;" src="assets/side-menu/flow_03.png" alt="">
 <span class="closeFlow" style="width:5vw; height: 5vw; position: absolute; top: 5%; right: 6%;"></span>
-<a id="thumb62" href="javascript:CLMPlayer.gotoSlide(null, '62_slide.html',null);" style="position: absolute; top: 20%; left: 13%; z-index: 99;"></a>
-<a id="thumb63" href="javascript:CLMPlayer.gotoSlide(null, '63_slide.html',null);" style="position: absolute; top: 20%; left: 24%; z-index: 99;"></a>
-<a id="thumb64" href="javascript:CLMPlayer.gotoSlide(null, '64_slide.html',null);" style="position: absolute; top: 20%; left: 35%; z-index: 99;"></a>
-<a id="thumb66" href="javascript:CLMPlayer.gotoSlide(null, '66_slide.html',null);" style="position: absolute; top: 20%; left: 45.5%; z-index: 99;"></a>
-<a id="thumb67" href="javascript:CLMPlayer.gotoSlide(null, '67_slide.html',null);" style="position: absolute; top: 20%; left: 56.4%; z-index: 99;"></a>
-<a id="thumb73" href="javascript:CLMPlayer.gotoSlide(null, '73_slide.html',null);" style="position: absolute; top: 20%; left: 67.2%; z-index: 99;"></a>
-<a id="thumb74" href="javascript:CLMPlayer.gotoSlide(null, '74_slide.html',null);" style="position: absolute; top: 20%; left: 78%; z-index: 99;"></a>
+<a id="thumb62" href="javascript:CLMPlayer.gotoSlide(null,'62_slide.html',null);" style="position: absolute; top: 20%; left: 13%; z-index: 99;"></a>
+<a id="thumb63" href="javascript:CLMPlayer.gotoSlide(null,'63_slide.html',null);" style="position: absolute; top: 20%; left: 24%; z-index: 99;"></a>
+<a id="thumb64" href="javascript:CLMPlayer.gotoSlide(null,'64_slide.html',null);" style="position: absolute; top: 20%; left: 35%; z-index: 99;"></a>
+<a id="thumb66" href="javascript:CLMPlayer.gotoSlide(null,'66_slide.html',null);" style="position: absolute; top: 20%; left: 45.5%; z-index: 99;"></a>
+<a id="thumb67" href="javascript:CLMPlayer.gotoSlide(null,'67_slide.html',null);" style="position: absolute; top: 20%; left: 56.4%; z-index: 99;"></a>
+<a id="thumb73" href="javascript:CLMPlayer.gotoSlide(null,'73_slide.html',null);" style="position: absolute; top: 20%; left: 67.2%; z-index: 99;"></a>
+<a id="thumb74" href="javascript:CLMPlayer.gotoSlide(null,'74_slide.html',null);" style="position: absolute; top: 20%; left: 78%; z-index: 99;"></a>
 
-<a id="thumb75" href="javascript:CLMPlayer.gotoSlide(null, '75_slide.html',null);" style="position: absolute; top: 34%; left: 13%; z-index: 99;"></a>
-<a id="thumb78" href="javascript:CLMPlayer.gotoSlide(null, '78_slide.html',null);" style="position: absolute; top: 34%; left: 24%; z-index: 99;"></a>
-<a id="thumb79" href="javascript:CLMPlayer.gotoSlide(null, '79_slide.html',null);" style="position: absolute; top: 34%; left: 35%; z-index: 99;"></a>
-<a id="thumb80" href="javascript:CLMPlayer.gotoSlide(null, '80_slide.html',null);" style="position: absolute; top: 34%; left: 45.5%; z-index: 99;"></a>
-<a id="thumb81" href="javascript:CLMPlayer.gotoSlide(null, '81_slide.html',null);" style="position: absolute; top: 34%; left: 56.4%; z-index: 99;"></a>
+<a id="thumb75" href="javascript:CLMPlayer.gotoSlide(null,'75_slide.html',null);" style="position: absolute; top: 34%; left: 13%; z-index: 99;"></a>
+<a id="thumb78" href="javascript:CLMPlayer.gotoSlide(null,'78_slide.html',null);" style="position: absolute; top: 34%; left: 24%; z-index: 99;"></a>
+<a id="thumb79" href="javascript:CLMPlayer.gotoSlide(null,'79_slide.html',null);" style="position: absolute; top: 34%; left: 35%; z-index: 99;"></a>
+<a id="thumb80" href="javascript:CLMPlayer.gotoSlide(null,'80_slide.html',null);" style="position: absolute; top: 34%; left: 45.5%; z-index: 99;"></a>
+<a id="thumb81" href="javascript:CLMPlayer.gotoSlide(null,'81_slide.html',null);" style="position: absolute; top: 34%; left: 56.4%; z-index: 99;"></a>
 `;
 
 /*const flow04_content = `
